@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Component } from 'react';
+import  ReactDOM  from 'react-dom';
+import Counter from './components/counter'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Code with Mosh - Mastering React
+// section 3
+// - pravljenje aplikacije za listu videa, delete istih, od lekcije 17 pogledati
+
+// section 4
+// lekcija 3 - razmenjivanje props izmedju komponenata
+// lekcija 4 - children props
+// lekcija 5 - debugging React app
+// lekcija 7 - raising and handling events - bitno
+// lekcija 8 - update state - bitno
+// lekcija 10 - removing the local state
+// lekcija 11 - stateless components, moze da se prebaci u funkciju, nema potrebe da se kreira klasa, nema this, samo prima props
+// lekcija 16, 17, 18 - faze pri load stranice kod react mount, update, unmount - bitno
+// lekcija 20 - increment, decrement, delete - bitno
+// lekcija 22 - like compon
+
+// section 5 5. Pagination, Filtering, and Sorting
+
+ 
+ReactDOM.render(<Counter/>, document.getElementById('root'));
